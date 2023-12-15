@@ -1,0 +1,38 @@
+{
+  "name": "spacetime-week-of-month",
+  "version": "0.2.0",
+  "description": "calculate nth week of the month",
+  "main": "src/index.js",
+  "unpkg": "builds/spacetime-week-of-month.min.js",
+  "module": "builds/spacetime-week-of-month.mjs",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./builds/spacetime-week-of-month.cjs",
+      "import": "./builds/spacetime-week-of-month.mjs",
+      "default": "./builds/spacetime-week-of-month.mjs"
+    }
+  },
+  "homepage": "https://github.com/spencermountain/spacetime/tree/master/plugins/spacetime-week-of-month",
+  "scripts": {
+    "test": "TESTENV=dev tape ./week.test.js | tap-dancer  --color always",
+    "build": "rollup -c --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencermountain/spacetime.git"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "devDependencies": {
+    "tap-dancer": "0.3.4",
+    "tape": "5.5.3"
+  },
+  "license": "MIT"
+}

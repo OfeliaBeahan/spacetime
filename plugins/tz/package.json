@@ -1,0 +1,41 @@
+{
+  "name": "stz",
+  "version": "0.1.0",
+  "description": "a CLI timezone calculator",
+  "main": "cli.js",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./cli.js",
+      "default": "./cli.js"
+    }
+  },
+  "bin": {
+    "stz": "cli.js"
+  },
+  "homepage": "https://github.com/spencermountain/spacetime/tree/master/plugins/tz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencermountain/spacetime.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "spacetime": "6.16.3",
+    "timezone-soft": "1.3.1"
+  },
+  "license": "MIT"
+}
