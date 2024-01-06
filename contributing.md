@@ -1,4 +1,4 @@
-Hi! Pull requests are welcome and always respected.
+Hi!!Pull requests are welcome and always respected.
 
 If the PR is a big one, or adds a new feature, please open an issue to ask questions first.
 
@@ -33,3 +33,4 @@ It's done collaboratively or badly!
 ### Agreement to Code of Conduct
 
 By participating and contributing to Spacetime -- you agree to the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct) Code of Conduct. Lack of familiarity with this Code of Conduct is not an excuse for not adhering to it.
+ 
